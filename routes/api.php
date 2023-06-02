@@ -1,6 +1,6 @@
 <?php
 
-use CYSP\Liveness\Http\Controllers;
+use LaravelTool\Liveness\Http\Controllers;
 use Illuminate\Support\Facades\Route;
 
 Route::middleware(config('liveness.middleware'))
